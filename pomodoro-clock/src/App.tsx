@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import logo from './logo.svg';
+import { DisplayState } from "./helper";
 import './App.css';
 
 const defaultBreakTime = 5 * 60;
@@ -11,7 +11,11 @@ const interval = 60;
 function App() {
   const [breakTime, setBreakTime] = useState(defaultBreakTime);
   const [sessionTime, setSessionTime] = useState(defaultSessionTime);
-  const [displayState, setDisplayState] = useState("Session");
+  const [displayState, setDisplayState] = useState<DisplayState>({
+    time: sessionTime,
+    timeType: "Session",
+    timerRunning: false,
+  });
 
   return (
     <div className="App">
