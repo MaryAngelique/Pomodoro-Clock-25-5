@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { DisplayState } from "./helper";
 import TimeSetter from "./TimeSetter";
+import Display from "./Display";
 import './App.css';
 
 const defaultBreakTime = 5 * 60;
@@ -17,6 +18,19 @@ function App() {
     timeType: "Session",
     timerRunning: false,
   });
+
+  const reset = () => {
+    setBreakTime(defaultBreakTime);
+    setSessionTime(defaultSessionTime);
+    setDisplayState({
+      time: defaultSessionTime,
+      timeType: "Session",
+      timerRunning: false,
+    });
+    const audio = document.getElementById("beep") as HTMLAudioElement;
+    audio.pause();
+    audio.currentTime = 0;
+  };
 
   return (
     <div className="clock">
@@ -44,6 +58,12 @@ function App() {
           />
         </div>
       </div>
+      <Display
+        displayState={displayState}
+        reset={reset}
+        startStop={startStop}
+      />
+      <audio id="beep" src={AlarmSound} />
     </div>
   );
 }
