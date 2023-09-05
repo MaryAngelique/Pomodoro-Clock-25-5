@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { DisplayState } from "./helper";
 import TimeSetter from "./TimeSetter";
 import Display from "./Display";
-import AlarmSound from './assets/AlarmSound.mp3';
+import AlarmSound from "./assets/AlarmSound.mp3";
 import './App.css';
 
 const defaultBreakTime = 5 * 60;
