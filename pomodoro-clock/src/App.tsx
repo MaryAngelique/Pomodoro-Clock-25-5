@@ -32,6 +32,13 @@ function App() {
     audio.currentTime = 0;
   };
 
+  const startStop = () => {
+    setDisplayState((prev) => ({
+      ...prev,
+      timerRunning: !prev.timerRunning,
+    }));
+  };
+
   return (
     <div className="clock">
       <div className="setters">
