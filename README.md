@@ -43,9 +43,6 @@ You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and
             <li>User Story #27: The audio element with id="beep" must be 1 second or longer.</li>
             <li>User Story #28: The audio element with id of beep must stop playing and be rewound to the beginning when the element with the id of reset is clicked.</li>
           </ul>
-          <h3>Here are some audio samples you can use for your drum machine</h3>
-          <h3>Once you're done, submit the URL to your working project with all its tests passing.</h3>
-          <h3>Note: Twitter does not allow links to be loaded in an iframe. Try using the target="_blank" or target="_top" attribute on the #tweet-quote element if your tweet won't load. target="_top" will replace the current tab so make sure your work is saved.</h3>
     </div>
 </body>
 </html>
