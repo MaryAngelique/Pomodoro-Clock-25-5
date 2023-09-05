@@ -18,8 +18,15 @@ function App() {
   });
 
   return (
-    <div className="App">
-      
+    <div className="clock">
+      <div className="setters">
+        <div className="break">
+          <h4 id="break-label">Break Length</h4>
+        </div>
+        <div className="session">
+          <h4 id="session-label">Session Length</h4>
+        </div>
+      </div>
     </div>
   );
 }
