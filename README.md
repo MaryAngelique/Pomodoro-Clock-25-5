@@ -17,9 +17,9 @@ You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and
             <li>User Story #1: I can see an element with id="break-label" that contains a string (e.g. "Break Length").</li>
             <li>User Story #2: I can see an element with id="session-label" that contains a string (e.g. "Session Length").</li>
             <li>User Story #3: I can see two clickable elements with corresponding IDs: id="break-decrement" and id="session-decrement".</li>
-            <li>User Story #4: Within each .drum-pad, there should be an HTML5 audio element which has a src attribute pointing to an audio clip, a class name of clip, and an id corresponding to the inner text of its parent .drum-pad (e.g. id="Q", id="W", id="E" etc.).</li>
-            <li>User Story #5: When I click on a .drum-pad element, the audio clip contained in its child audio element should be triggered.</li>
-            <li>User Story #6: When I press the trigger key associated with each .drum-pad, the audio clip contained in its child audio element should be triggered (e.g. pressing the Q key should trigger the drum pad which contains the string Q, pressing the W key should trigger the drum pad which contains the string W, etc.).</li>
+            <li>User Story #4: I can see two clickable elements with corresponding IDs: id="break-increment" and id="session-increment".</li>
+            <li>User Story #5: I can see an element with a corresponding id="break-length", which by default (on load) displays a value of 5.</li>
+            <li>User Story #6: I can see an element with a corresponding id="session-length", which by default displays a value of 25.</li>
             <li>User Story #7: When a .drum-pad is triggered, a string describing the associated audio clip is displayed as the inner text of the #display element (each string must be unique).</li>
           </ul>
           <h3>Here are some audio samples you can use for your drum machine</h3>
