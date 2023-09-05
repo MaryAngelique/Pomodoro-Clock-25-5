@@ -21,10 +21,10 @@ You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and
             <li>User Story #5: I can see an element with a corresponding id="break-length", which by default (on load) displays a value of 5.</li>
             <li>User Story #6: I can see an element with a corresponding id="session-length", which by default displays a value of 25.</li>
             <li>User Story #7: I can see an element with a corresponding id="timer-label", that contains a string indicating a session is initialized (e.g. "Session").</li>
-            <li>User Story #7: I can see an element with a corresponding id="timer-label", that contains a string indicating a session is initialized (e.g. "Session").</li>
-            <li>User Story #7: I can see an element with a corresponding id="timer-label", that contains a string indicating a session is initialized (e.g. "Session").</li>
-            <li>User Story #7: I can see an element with a corresponding id="timer-label", that contains a string indicating a session is initialized (e.g. "Session").</li>
-            <li>User Story #7: I can see an element with a corresponding id="timer-label", that contains a string indicating a session is initialized (e.g. "Session").</li>
+            <li>User Story #8: I can see an element with corresponding id="time-left". NOTE: Paused or running, the value in this field should always be displayed in mm:ss format (i.e. 25:00).</li>
+            <li>User Story #9: I can see a clickable element with a corresponding id="start_stop".</li>
+            <li>User Story #10: I can see a clickable element with a corresponding id="reset".</li>
+            <li>User Story #11: When I click the element with the id of reset, any running timer should be stopped, the value within id="break-length" should return to 5, the value within id="session-length" should return to 25, and the element with id="time-left" should reset to its default state.</li>
             <li>User Story #7: I can see an element with a corresponding id="timer-label", that contains a string indicating a session is initialized (e.g. "Session").</li>
             <li>User Story #7: I can see an element with a corresponding id="timer-label", that contains a string indicating a session is initialized (e.g. "Session").</li>
             <li>User Story #7: I can see an element with a corresponding id="timer-label", that contains a string indicating a session is initialized (e.g. "Session").</li>
